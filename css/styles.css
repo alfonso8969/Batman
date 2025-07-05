@@ -23,7 +23,7 @@ header h1 {
     font-family: 'Bebas Neue', sans-serif;
     margin: 0;
     font-size: 5em;
-    letter-spacing: .5em;
+    letter-spacing: .3em;
 }
 
 header p {
@@ -64,7 +64,7 @@ header a {
 .section-restaurant,
 .section-contact {
     padding: 0;
-    background: rgb(167 152 171 / 71%);
+    background: #e6e6e6;
 }
 
 .section-restaurant h2,
@@ -124,7 +124,7 @@ article p {
 }
 
 .btn-send {
-    color: #98b85d;
+    color: #cdcd11;
     text-transform: uppercase;
 }
 
@@ -154,10 +154,8 @@ article p {
 }
 
 .section-rates h2 {
-    font-family: 'Bebas Neue', sans-serif;
     color: #333;
-    font-size: 3em;
-    margin: 20px 0;
+    margin-left: 20px;
     text-align: center;
 }
 
@@ -167,12 +165,53 @@ article p {
     margin: 0;
 }
 
-.basic-rates {
-    width: 70%;
-    padding: 20px;
+.container .text-title {
+    font-size: 1.5em;
+    margin: 10px 0;
+    text-align: start;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.text-title-rates {
+    text-align: center !important;
+}
+
+.rates {
+    box-sizing: border-box;
+    width: 600px;
+    margin-left: 75px;
+    padding: 5px 50px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.basic {
     background-color: #fff;
     color: #333;
-    border-radius: 10px;
+}
+
+.deluxe {
+    background-color: #333;
+    color: #fff;
+}
+
+.rates h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.rates p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.rates ul {
+    list-style: disc;
+    padding: 0 0 10px 30px;
+    margin: 0;
 }
 
 .google-map {
@@ -192,12 +231,14 @@ article p {
 .contact-info span {
     display: block;
     color: #333;
+    padding: 10px 0;
 }
 
 .icon-contact {
     width: 18px;
     height: 18px;
     display: inline-block;
+    padding: 0 5px;
 }
 
 footer {
