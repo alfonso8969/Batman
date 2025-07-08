@@ -242,6 +242,20 @@ article p {
     padding: 0 5px;
 }
 
+.icon-contact:hover {
+    fill: #cdcd11;
+}
+
+.address-link {
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.address-link:hover {
+    color: #cdcd11;
+}
+
 footer {
     background: #333;
     color: #fff;
@@ -256,6 +270,11 @@ footer {
     margin: 10px;
     fill: #f1f3ec;
 }
+
+.icon:hover {
+    fill: #cdcd11;
+}
+
 
 @media (max-width: 768px) {
     header h1 {
