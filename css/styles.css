@@ -48,6 +48,37 @@ header nav li {
     border-radius: 5px;
 }
 
+.main-nav {
+    position: relative;
+}
+
+.menu-icon {
+    display: none;
+    position: absolute;
+    top: -45px;
+    right: 10px;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.filter-green {
+    filter: invert(50%) sepia(100%) saturate(0%) hue-rotate(90deg) brightness(100%) contrast(100%);
+}
+
+.flex-col {
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-start;
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+    padding: 20px;
+    /* background: #fff; */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    gap: 10px;
+}
+
 header nav li:not(:last-child) {
     margin-right: 20px;
 }
@@ -269,49 +300,4 @@ footer {
 
 .icon:hover {
     fill: #cdcd11;
-}
-
-
-@media (max-width: 768px) {
-
-    header nav ul {
-        display: block;
-        width: 100%;
-        padding: 10px;
-        margin-left: 30%;
-    }
-
-    header nav li {
-        display: block;
-        margin: 10px 0;
-        width: 25%;
-    }
-
-    header h1 {
-        font-size: 3em;
-    }
-
-    header p {
-        font-size: 1.5em;
-    }
-
-    header nav li {
-        margin-right: 10px;
-        padding: 5px 10px;
-    }
-
-    .container {
-        padding: 10px;
-    }
-
-    .section-restaurant,
-    .section-contact {
-        padding: 20px;
-    }
-
-    .rates {
-        width: 100%;
-        margin-left: 0;
-        padding: 20px;
-    }
 }
